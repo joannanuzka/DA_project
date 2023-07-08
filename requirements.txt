@@ -1,0 +1,7 @@
+pandas
+matplotlib
+seaborn
+cmdstanpy
+notebook
+jupyter
+arviz
