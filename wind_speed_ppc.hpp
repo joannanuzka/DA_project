@@ -10,11 +10,11 @@ using namespace stan::math;
 stan::math::profile_map profiles__;
 static constexpr std::array<const char*, 6> locations_array__ = 
 {" (found before start of program)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_ppc.stan', line 3, column 2 to column 33)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_ppc.stan', line 4, column 2 to column 31)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_ppc.stan', line 5, column 2 to column 33)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_ppc.stan', line 6, column 2 to column 41)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_ppc.stan', line 7, column 2 to column 68)"};
+ " (in '/home/DA_project/wind_speed_ppc.stan', line 3, column 2 to column 33)",
+ " (in '/home/DA_project/wind_speed_ppc.stan', line 4, column 2 to column 31)",
+ " (in '/home/DA_project/wind_speed_ppc.stan', line 5, column 2 to column 33)",
+ " (in '/home/DA_project/wind_speed_ppc.stan', line 6, column 2 to column 41)",
+ " (in '/home/DA_project/wind_speed_ppc.stan', line 7, column 2 to column 68)"};
 
 
 

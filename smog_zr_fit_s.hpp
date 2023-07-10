@@ -10,45 +10,45 @@ using namespace stan::math;
 stan::math::profile_map profiles__;
 static constexpr std::array<const char*, 40> locations_array__ = 
 {" (found before start of program)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 13, column 2 to column 13)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 14, column 2 to column 17)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 15, column 2 to column 15)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 16, column 2 to column 12)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 17, column 2 to column 12)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 18, column 2 to column 12)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 19, column 2 to column 22)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 23, column 4 to column 17)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 24, column 4 to column 117)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 42, column 4 to column 23)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 43, column 4 to column 22)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 45, column 8 to column 53)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 46, column 8 to column 61)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 44, column 19 to line 47, column 5)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 44, column 4 to line 47, column 5)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 29, column 2 to column 24)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 30, column 2 to column 27)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 31, column 2 to column 25)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 32, column 2 to column 23)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 33, column 2 to column 23)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 34, column 2 to column 22)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 35, column 2 to column 23)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 38, column 2 to column 33)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 3, column 2 to column 17)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 4, column 9 to column 10)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 4, column 2 to column 23)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 5, column 9 to column 10)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 5, column 2 to column 23)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 6, column 9 to column 10)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 6, column 2 to column 26)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 7, column 9 to column 10)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 7, column 2 to column 20)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 8, column 9 to column 10)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 8, column 2 to column 17)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 9, column 9 to column 10)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 9, column 2 to column 17)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 23, column 11 to column 12)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 42, column 11 to column 12)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_fit_s.stan', line 43, column 11 to column 12)"};
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 13, column 2 to column 13)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 14, column 2 to column 17)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 15, column 2 to column 15)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 16, column 2 to column 12)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 17, column 2 to column 12)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 18, column 2 to column 12)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 19, column 2 to column 22)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 23, column 4 to column 17)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 24, column 4 to column 117)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 42, column 4 to column 23)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 43, column 4 to column 22)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 45, column 8 to column 53)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 46, column 8 to column 61)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 44, column 19 to line 47, column 5)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 44, column 4 to line 47, column 5)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 29, column 2 to column 24)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 30, column 2 to column 27)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 31, column 2 to column 25)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 32, column 2 to column 23)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 33, column 2 to column 23)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 34, column 2 to column 22)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 35, column 2 to column 24)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 38, column 2 to column 27)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 3, column 2 to column 17)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 4, column 9 to column 10)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 4, column 2 to column 23)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 5, column 9 to column 10)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 5, column 2 to column 23)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 6, column 9 to column 10)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 6, column 2 to column 26)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 7, column 9 to column 10)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 7, column 2 to column 20)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 8, column 9 to column 10)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 8, column 2 to column 17)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 9, column 9 to column 10)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 9, column 2 to column 17)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 23, column 11 to column 12)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 42, column 11 to column 12)",
+ " (in '/home/DA_project/smog_zr_fit_s.stan', line 43, column 11 to column 12)"};
 
 
 
@@ -328,7 +328,7 @@ class smog_zr_fit_s_model final : public model_base_crtp<smog_zr_fit_s_model> {
           stan::math::multiply(d_wn, weekend)), "assigning variable mu");
       {
         current_statement__ = 16;
-        lp_accum__.add(stan::math::normal_lpdf<propto__>(alpha, 50, 2));
+        lp_accum__.add(stan::math::normal_lpdf<propto__>(alpha, 30, 2));
         current_statement__ = 17;
         lp_accum__.add(stan::math::normal_lpdf<propto__>(beta_temp, 0, 1));
         current_statement__ = 18;
@@ -340,10 +340,9 @@ class smog_zr_fit_s_model final : public model_base_crtp<smog_zr_fit_s_model> {
         current_statement__ = 21;
         lp_accum__.add(stan::math::normal_lpdf<propto__>(d_wn, 1, 2));
         current_statement__ = 22;
-        lp_accum__.add(stan::math::normal_lpdf<propto__>(sigma, 1, 1));
+        lp_accum__.add(stan::math::normal_lpdf<propto__>(sigma, 15, 1));
         current_statement__ = 23;
-        lp_accum__.add(
-          stan::math::student_t_lpdf<propto__>(smog, 1, mu, sigma));
+        lp_accum__.add(stan::math::normal_lpdf<propto__>(smog, mu, sigma));
       }
     } catch (const std::exception& e) {
       stan::lang::rethrow_located(e, locations_array__[current_statement__]);
@@ -441,14 +440,14 @@ class smog_zr_fit_s_model final : public model_base_crtp<smog_zr_fit_s_model> {
       for (int j = 1; j <= N; ++j) {
         current_statement__ = 12;
         stan::model::assign(smog_hat,
-          stan::math::student_t_rng(1,
+          stan::math::student_t_rng(5,
             stan::model::rvalue(mu, "mu", stan::model::index_uni(j)), sigma,
             base_rng__),
           "assigning variable smog_hat", stan::model::index_uni(j));
         current_statement__ = 13;
         stan::model::assign(log_lik,
           stan::math::student_t_lpdf<false>(
-            stan::model::rvalue(smog, "smog", stan::model::index_uni(j)), 1,
+            stan::model::rvalue(smog, "smog", stan::model::index_uni(j)), 5,
             stan::model::rvalue(mu, "mu", stan::model::index_uni(j)), sigma),
           "assigning variable log_lik", stan::model::index_uni(j));
       }

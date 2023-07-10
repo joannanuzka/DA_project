@@ -10,20 +10,20 @@ using namespace stan::math;
 stan::math::profile_map profiles__;
 static constexpr std::array<const char*, 15> locations_array__ = 
 {" (found before start of program)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 3, column 2 to column 33)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 4, column 2 to column 36)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 5, column 2 to column 34)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 6, column 2 to column 32)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 7, column 2 to column 32)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 8, column 2 to column 31)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 9, column 2 to column 41)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 11, column 2 to column 38)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 12, column 2 to column 57)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 13, column 2 to column 60)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 14, column 2 to column 54)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 16, column 2 to column 32)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 18, column 2 to column 121)",
- " (in '/home/projekt/DA_projectv1500/DA_project/smog_zr_ppc_s.stan', line 19, column 2 to column 44)"};
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 3, column 2 to column 33)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 4, column 2 to column 36)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 5, column 2 to column 34)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 6, column 2 to column 32)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 7, column 2 to column 32)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 8, column 2 to column 31)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 9, column 2 to column 42)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 11, column 2 to column 38)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 12, column 2 to column 57)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 13, column 2 to column 60)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 14, column 2 to column 54)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 16, column 2 to column 32)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 18, column 2 to column 121)",
+ " (in '/home/DA_project/smog_zr_ppc_s.stan', line 19, column 2 to column 44)"};
 
 
 
@@ -127,7 +127,7 @@ class smog_zr_ppc_s_model final : public model_base_crtp<smog_zr_ppc_s_model> {
       } 
       double alpha = std::numeric_limits<double>::quiet_NaN();
       current_statement__ = 1;
-      alpha = stan::math::normal_rng(50, 2, base_rng__);
+      alpha = stan::math::normal_rng(30, 2, base_rng__);
       double beta_temp = std::numeric_limits<double>::quiet_NaN();
       current_statement__ = 2;
       beta_temp = stan::math::normal_rng(0, 1, base_rng__);
@@ -145,7 +145,7 @@ class smog_zr_ppc_s_model final : public model_base_crtp<smog_zr_ppc_s_model> {
       d_wn = stan::math::normal_rng(1, 2, base_rng__);
       double sigma = std::numeric_limits<double>::quiet_NaN();
       current_statement__ = 7;
-      sigma = stan::math::normal_rng(1, 1, base_rng__);
+      sigma = stan::math::normal_rng(15, 1, base_rng__);
       double windspeed = std::numeric_limits<double>::quiet_NaN();
       current_statement__ = 8;
       windspeed = stan::math::normal_rng(20, 10, base_rng__);
@@ -168,7 +168,7 @@ class smog_zr_ppc_s_model final : public model_base_crtp<smog_zr_ppc_s_model> {
                (d_wn * weekend));
       double smog = std::numeric_limits<double>::quiet_NaN();
       current_statement__ = 14;
-      smog = stan::math::student_t_rng(1, mean, sigma, base_rng__);
+      smog = stan::math::student_t_rng(5, mean, sigma, base_rng__);
       current_statement__ = 7;
       stan::math::check_greater_or_equal(function__, "sigma", sigma, 0);
       current_statement__ = 9;

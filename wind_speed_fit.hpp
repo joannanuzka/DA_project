@@ -10,20 +10,20 @@ using namespace stan::math;
 stan::math::profile_map profiles__;
 static constexpr std::array<const char*, 15> locations_array__ = 
 {" (found before start of program)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 9, column 2 to column 13)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 10, column 2 to column 12)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 11, column 2 to column 22)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 25, column 4 to column 72)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 16, column 2 to column 24)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 17, column 2 to column 22)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 18, column 2 to column 24)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 21, column 2 to column 54)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 3, column 2 to column 17)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 4, column 9 to column 10)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 4, column 2 to column 21)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 5, column 9 to column 10)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 5, column 2 to column 23)",
- " (in '/home/projekt/DA_projectv1500/DA_project/wind_speed_fit.stan', line 25, column 24 to column 25)"};
+ " (in '/home/DA_project/wind_speed_fit.stan', line 9, column 2 to column 13)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 10, column 2 to column 12)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 11, column 2 to column 22)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 25, column 4 to column 72)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 16, column 2 to column 24)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 17, column 2 to column 22)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 18, column 2 to column 24)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 21, column 2 to column 54)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 3, column 2 to column 17)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 4, column 9 to column 10)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 4, column 2 to column 21)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 5, column 9 to column 10)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 5, column 2 to column 23)",
+ " (in '/home/DA_project/wind_speed_fit.stan', line 25, column 24 to column 25)"};
 
 
 

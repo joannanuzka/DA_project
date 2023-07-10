@@ -50,7 +50,7 @@ generated quantities {
     vector[N] smog_hat;
     vector[N] log_lik;
     for (j in 1:N) {
-        smog_hat[j] = student_t_rng(1, mu[j], sigma);
-        log_lik[j] = student_t_lpdf(smog[j]|1, mu[j], sigma);
+        smog_hat[j] = student_t_rng(5, mu[j], sigma);
+        log_lik[j] = student_t_lpdf(smog[j]|5, mu[j], sigma);
     }
 }
